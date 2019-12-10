@@ -4,9 +4,9 @@
   "description": "A tool that helps emulate \\textcite without biblatex.",
   "main": "index.js",
   "scripts": {
-    "build": "babel src --out-dir transpiled",
-    "watch": "babel src --watch --out-dir transpiled",
-    "ncc": "ncc build transpiled/index.js"
+    "build": "babel src --out-dir .",
+    "watch": "babel src --watch --out-dir .",
+    "ncc": "ncc build index.js"
   },
   "repository": {
     "type": "git",
