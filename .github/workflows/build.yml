@@ -11,5 +11,5 @@ jobs:
       with:
         node-version: 12.x
     - run: npm install
-    - run: npm install -g ncc
-    - run: npm run build
+    - run: npm install -g @zeit/ncc
+    - run: ncc build src/index.js -o dist
