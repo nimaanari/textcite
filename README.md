@@ -3,7 +3,7 @@ A tool that helps emulate \textcite without biblatex.
 
 ## Installation
 
-Just do `npm install` followed by `ncc src/index.js`.
+Just do `npm install` followed by `ncc build src/index.js`.
 
 ## Usage
 
