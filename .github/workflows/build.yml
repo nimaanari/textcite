@@ -16,4 +16,4 @@ jobs:
     - uses: actions/upload-artifact@v1
       with:
         name: ncc-output
-        path: dist/index.js
+        path: dist
