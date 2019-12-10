@@ -4,9 +4,7 @@
   "description": "A tool that helps emulate \\textcite without biblatex.",
   "main": "index.js",
   "scripts": {
-    "build": "babel src --out-dir .",
-    "watch": "babel src --watch --out-dir .",
-    "ncc": "ncc build index.js"
+    "build": "npx ncc build src/index.js"
   },
   "repository": {
     "type": "git",
@@ -25,11 +23,5 @@
   "homepage": "https://github.com/nimaanari/textcite#readme",
   "dependencies": {
     "bibtex-parse-js": "0.0.24"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0",
-    "ncc": "^0.3.6"
   }
 }
