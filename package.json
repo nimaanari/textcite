@@ -1,0 +1,35 @@
+{
+  "name": "textcite",
+  "version": "1.0.0",
+  "description": "A tool that helps emulate \\textcite without biblatex.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir transpiled",
+    "watch": "babel src --watch --out-dir transpiled",
+    "ncc": "ncc build transpiled/index.js -o ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimaanari/textcite.git"
+  },
+  "keywords": [
+    "latex",
+    "biblatex",
+    "textcite"
+  ],
+  "author": "Nima Anari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nimaanari/textcite/issues"
+  },
+  "homepage": "https://github.com/nimaanari/textcite#readme",
+  "dependencies": {
+    "bibtex-parse-js": "0.0.24"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "ncc": "^0.3.6"
+  }
+}
