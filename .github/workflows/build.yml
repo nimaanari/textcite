@@ -11,4 +11,5 @@ jobs:
       with:
         node-version: 12.x
     - run: npm install
-    - run: npx ncc build src/index.js
+    - run: npm install -g ncc
+    - run: npm run build

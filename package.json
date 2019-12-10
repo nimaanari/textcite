@@ -4,7 +4,7 @@
   "description": "A tool that helps emulate \\textcite without biblatex.",
   "main": "index.js",
   "scripts": {
-    "build": "npx @zeit/ncc build src/index.js"
+    "build": "ncc build src/index.js"
   },
   "repository": {
     "type": "git",
