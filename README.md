@@ -1,5 +1,5 @@
 # textcite
-A tool that helps emulate \textcite without biblatex.
+A tool that helps emulate \textcite without BibLaTeX.
 
 ## Installation
 
@@ -7,7 +7,7 @@ Just do `npm install` followed by `ncc build src/index.js`.
 
 ## Usage
 
-This script reads a BibTeX file and outputs a plain TeX file that you can input in your preamble to emulate \textcite and \Textcite commands.
+This script reads a BibTeX file and outputs a plain TeX file that you can input in your preamble to emulate `\textcite` and `\Textcite` commands.
 
 Here is a basic example of usage:
 
