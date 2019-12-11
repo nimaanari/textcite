@@ -2,9 +2,10 @@
   "name": "textcite",
   "version": "1.0.0",
   "description": "A tool that helps emulate \\textcite without biblatex.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "ncc build src/index.js"
+    "build": "ncc build src/index.js -o dist",
+    "watch": "ncc build src/index.js -o dist -w"
   },
   "repository": {
     "type": "git",
